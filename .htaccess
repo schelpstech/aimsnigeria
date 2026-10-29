@@ -1,0 +1,11 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Serve the public website at the project root without exposing /dist in the URL.
+RewriteRule ^$ dist/index.html [L]
+
+# Resolve public assets from dist while preserving existing files and endpoints.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(?!dist/)(.+)$ dist/$1 [L]

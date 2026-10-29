@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://students.aimsnigeria.org.ng/sitemap.xml
+

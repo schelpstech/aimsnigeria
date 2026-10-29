@@ -1,0 +1,16 @@
+<?php
+return [
+    'smtp_host' => 'mail.aimsnigeria.org.ng',
+    'smtp_port' => 465,
+    'smtp_encryption' => 'ssl',
+    'smtp_username' => 'contact@aimsnigeria.org.ng',
+    'smtp_password' => 'ENTER_MAILBOX_PASSWORD_HERE',
+    'recipient' => 'contact@aimsnigeria.org.ng',
+    'allowed_origins' => [
+        'https://students.aimsnigeria.org.ng',
+        'https://aims-nigeria-students.deleolasunkanmi.chatgpt.site',
+    ],
+    'database_path' => dirname(__DIR__, 2) . '/aims-private/submissions.sqlite',
+    'admin_username' => 'aims-admin',
+    'admin_password_hash' => 'REPLACE_WITH_PASSWORD_HASH',
+];
