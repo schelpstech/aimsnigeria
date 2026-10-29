@@ -15,3 +15,13 @@ Checked on 29 October 2026 through the AMPPS preview.
 - Header seal reduced from 1,792,957 bytes to 48,786 bytes; original retained.
 
 Live submissions and email delivery were not exercised. Existing PHP endpoint files and configuration were unchanged.
+
+## Typography and color refinement
+
+- Replaced Source Serif 4 / Manrope with locally hosted Plus Jakarta Sans / Inter.
+- Applied navy, white, slate and gold throughout the interface; neutralized the photo overlay.
+- Root URL serves both WOFF2 font assets successfully.
+- Checked 320px, 390px, 768px and 1280px layouts. No horizontal overflow after adjusting the contact email size.
+- Text contrast: primary 14.31:1, muted on light background 5.38:1, gold emphasis on light background 4.77:1, white button text 13.83:1.
+- No browser console errors observed. git diff --check passed.
+- Final previews: type-color-desktop.jpg and type-color-mobile.jpg.

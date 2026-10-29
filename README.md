@@ -22,6 +22,6 @@ Application and enquiry forms retain the existing endpoint at `https://aimsniger
 
 The original seal is retained as `aims-logo.png`; `aims-seal.png` is an optimized header version. The illustrative student photograph is from [Pexels, photo 6147369](https://www.pexels.com/photo/6147369/). It does not depict or identify AIMS participants. Replace `students.jpg` with an approved institute photograph when available.
 
-Fonts are served by Google Fonts with local serif and sans-serif fallbacks. No package installation or build step is needed.
+Plus Jakarta Sans headings and Inter body text are self-hosted in `dist/fonts/`, with system sans-serif fallbacks. Their open-source licenses are included. The palette uses navy, white, slate and restrained gold accents. No package installation or build step is needed.
 
 The pre-redesign page is preserved at `qa/original-index.html` for rollback. Validation notes and desktop/mobile screenshots are also in `qa/`.
